@@ -48,13 +48,6 @@ public class RideMe extends JavaPlugin implements Listener{
 		}
 	}
 	
-	@EventHandler
-	public void LeaveVehicleEvent(VehicleExitEvent e){
-		if(e.getExited() instanceof Player){
-			Player p = (Player) e.getExited();
-		}
-		
-	}
 	
 	public boolean onCommand(CommandSender sender, Command command,
 			String label, String[] args) {
