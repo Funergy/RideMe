@@ -1,0 +1,7 @@
+name: RideMe
+main: com.funergy.rideme.RideMe
+version: 1.0.0
+author: Funergy
+description: RideMe
+commands:
+   deadbush:
