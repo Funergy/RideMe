@@ -36,7 +36,7 @@ public class RideMe extends JavaPlugin implements Listener{
 		}
 	}
 	@EventHandler
-	public void playerinteractentity(PlayerInteractEntityEvent e){
+	public void playerInteractEntity(PlayerInteractEntityEvent e){
 		if(e.getRightClicked() instanceof Player){
 		if(e.getPlayer().getItemInHand().getType() == Material.DEAD_BUSH){
 			if(e.getPlayer().getPassenger() == null){
@@ -49,7 +49,7 @@ public class RideMe extends JavaPlugin implements Listener{
 	}
 	
 	@EventHandler
-	public void leaveVehicleEven(VehicleExitEvent e){
+	public void LeaveVehicleEvent(VehicleExitEvent e){
 		if(e.getExited() instanceof Player){
 			Player p = (Player) e.getExited();
 		}
